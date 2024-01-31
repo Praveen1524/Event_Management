@@ -1,0 +1,79 @@
+/* src/components/AdminDashboard.css */
+.admindash{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#adminnavbar{
+    margin-left: 350px;
+}
+.adminnavlink{
+    margin-left: 100px;
+    /* text-align: center; */
+    display: inline-block;
+  width: 2px;
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+  /* color: rgb(255, 253, 150); */
+  color: rgb(255, 141, 151);
+  text-decoration: none;
+  font-size: 18px; 
+}
+.adminnavlink:hover{
+    color: rgb(238, 172, 96);
+
+}
+.ad1{
+    text-align: center;
+    margin-left: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 20vw;
+    font-size: larger;
+    color: darkblue;
+}
+.ad2{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: -80px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 20vw;
+    font-size: larger;
+    color: darkblue;
+}
+.admin-dashboard {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-list-container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  /* Add more styles as needed */
+  

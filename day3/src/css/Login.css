@@ -1,0 +1,58 @@
+/* Login.css */
+.login-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: cadetblue; */
+    background-image: url("../images/log10.jpg");
+    opacity: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+  }
+  .reg{
+    color:rgb(245, 146, 8);
+    /* text-decoration: none; */
+  }
+  .lab{
+    color: white;
+  }
+  .login-container h2{
+    color: rgb(234, 126, 11);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+  } 
+  
+  button {
+    /* background-color: #d6432a; */
+    background-color: #af6b4c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top:10px;
+}
