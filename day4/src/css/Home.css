@@ -1,0 +1,40 @@
+.party{
+    margin-top: 310px;
+    margin-left: 880px;
+}
+.partyhead{
+    /* margin-top: 330px; */
+    margin-top: -130px;
+    margin-left: 220px;
+    color: aliceblue;
+    
+}
+.party button{
+    background-color: orange;
+}
+.party button:hover{
+    background-color: rgb(219, 143, 0);
+}
+/* .homebutton{
+    margin-left: 50px;
+} */
+h1{
+    color: orange;
+}
+h2{
+    color: rgb(250, 196, 0);
+}
+.party h3{
+    color: whitesmoke;
+    /* color: rgb(237, 232, 184); */
+}
+.homelink{
+    display: inline-block;
+  width: 90px;
+  /* padding: 20px 25px 20px 15px; */
+  text-align: center;
+  /* color: rgb(234, 160, 13); */
+  color: rgb(255, 253, 150);
+  text-decoration: none;
+  font-size: 14px; 
+}

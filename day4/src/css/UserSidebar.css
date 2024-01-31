@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+.Sidepanel{
+    padding: 0 0 40px 0;
+    overflow: hidden;
+    text-align: center;
+    float:right;
+    width:20vw;
+    background-color: rgb(0, 0, 0);
+}
+.side-active{
+    visibility: hidden;
+}
+.side{
+    visibility:visible;
+    margin-right:0px;
+}
+.sidebutton{
+    width:80%;
+    /* color: rgb(255, 141, 151); */
+    /* color: yellow; */
+}
+.sidebutton:hover{
+    /* width:80%; */
+    color: rgb(255, 141, 151);
+    /* color: yellow; */
+}
+.Sidepanel Button{
+    /* color: yellow; */
+    color: rgb(255, 253, 150);
+
+}
