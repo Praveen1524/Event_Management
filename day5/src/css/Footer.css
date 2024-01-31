@@ -1,0 +1,36 @@
+.fdivh h4{
+    color: white;
+}
+.fdivp p{
+    color: grey;
+}
+.foot{
+    background-color: black;
+    /* width: 200vw; */
+    height: 50vh;
+}
+
+.fdiv1{
+    margin-top: -100px;
+    margin-left: 280px;
+}
+.fdiv2{
+    margin-top: -90px;
+    margin-left: 500px;
+}
+.fdiv3{
+    margin-top: -90px;
+    margin-left: 800px;
+}
+.fdiv4{
+    margin-left: 450px;
+    margin-top: 100px;
+    color: aliceblue;
+}
+.foot img{
+    width: 100px;
+    height: 100px;
+}
+.imdiv{
+    margin-left: 90px;
+}
