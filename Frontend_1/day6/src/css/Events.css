@@ -1,0 +1,86 @@
+h4{
+    color: whitesmoke;
+    
+}
+.events{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: darkblue; */
+}
+.head{
+    text-align: center;
+    margin-top: -121px;
+    /* color: rgb(220, 234, 68); */
+}
+.con1{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.con2{
+    margin-left: 460px;
+    margin-top: -372px;
+}
+.con3{
+    margin-left: 820px;
+    margin-top: -372px;
+}
+.con1 img{
+    width: 350px;
+    height: 350px;
+}
+.con1 img:hover{
+    opacity: 70%;
+}
+.con2 img{
+    width: 350px;
+    height: 350px;
+}
+.con2 img:hover{
+    opacity: 70%;
+}
+.con3 img{
+    width: 350px;
+    height: 350px;
+}
+.con3 img:hover{
+    opacity: 70%;
+}
+
+.hh button{
+    margin-left: 550px;
+    /* background-color: beige; */
+}
+
+.cat{
+    margin-left: 530px;
+}
+.cat p{
+    color: white;
+}
+.cat img{
+    width: 200px;
+    height: 100px;
+}
+.cat1{
+    margin-left: -400px;
+    /* border: 2px solid white; */
+    /* background-image: url("../images/ev1.jpg"); */
+}
+.cat2{
+    margin-top: -123px;
+    margin-left: -150px;
+}
+.cat3{
+    margin-top: -123px;
+    margin-left: 100px;
+}
+.cat4{
+    margin-top: -123px;
+    margin-left: 350px;
+}
+.evimg img{
+    margin-top: -100px;
+    width: 99vw;
+    height: 100vh;
+}

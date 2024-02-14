@@ -1,0 +1,51 @@
+/* view-container.css */
+
+.view-container1 {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .view-container {
+    border: 5px solid #333;
+    width: 70vw;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10vh 0 0 10vw;
+    background-color: #fff; /* Added background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+    transition: transform 0.3s ease-in-out; /* Added transition effect */
+  }
+  
+  .view-container:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .view-container img {
+    border-radius: 20px;
+    width: 100%; /* Adjusted width to 100% */
+    max-height: 40vh;
+    object-fit: cover; /* Added object-fit property */
+  }
+  
+  /* Hide scrollbar */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .viewvenue {
+    max-width: 100vh;
+  }
+  
+  .background {
+    background-image: linear-gradient(rgba(244, 154, 154, 0.871), rgb(242, 239, 239));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .desc,
+  .Address {
+    width: 10vw;
+    margin: 20px;
+    height:20vh;
+}

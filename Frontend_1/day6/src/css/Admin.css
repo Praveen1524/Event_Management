@@ -1,0 +1,183 @@
+/* Admin.css
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+ 
+  .college-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .college-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .college-details {
+    text-align: left;
+  }
+  
+  .college-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .college-description {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .college-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .college-actions button {
+    background-color: #ff5252;
+    color: #fff;
+  }
+  
+  .college-actions button:hover {
+    background-color: #ff2f2f;
+  }
+   */
+   /* Admin.css */
+
+  .create{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+   .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    color: #3498db;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  .add-button {
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 630px;
+    
+  }
+  
+  
+  .add-button h2 {
+    margin-bottom: 10px;
+    color: #3498db;
+    text-align: center;
+  }
+  
+  
+  .add-button button {
+    background-color: green;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    align-content: center;
+    text-align: center;
+  }
+  
+  /* Additional styling for Navbar */
+  .navbar {
+    background-color: #2c3e50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h2 {
+    color: #ecf0f1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 18px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #ecf0f1;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+    color: #3498db;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media screen and (max-width: 768px) {
+    .card-container {
+      justify-content: flex-start;
+    }
+  
+    .card {
+      width:100%;
+}}
